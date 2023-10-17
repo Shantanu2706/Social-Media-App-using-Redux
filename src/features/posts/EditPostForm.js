@@ -8,7 +8,6 @@ const EditPostForm = () => {
 
     const post = useSelector(state =>
         selectPostById(state, postId)
-
     )
 
 
